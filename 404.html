@@ -1,28 +1,95 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>404 | Not Found</title>
-    <link rel="stylesheet" href="./assets/css/new.css">
-    <link rel="icon" href="./assets/images/logo.png" type="image/png" sizes="16x16 32x32">
+  <head>
+    <title>SwiftSites - 404</title>
+    <!-- Meta -->
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    .err-404 {
-        font-size: 600%;
-        font-weight: 400;
-        text-shadow: 10px 10px 0px rgba(150, 150, 150, 0.25);
-    }
-    body {
-        transform: rotate(180deg);
-        padding-bottom: 20%;
-    }
-    </style>
-</head>
-<body>
-    <section>
-      <h1 class="err-404">404</h1>
-      <h2>This isn't the page you're looking for!</h2>
-    </section>
-</body>
+    <meta http-equiv="Content-Type" content="text/html; charse=UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+    <meta name="author" content="SwiftSites">
+    <meta name="description" content="SwiftSites home.">
+    <meta name="keywords" content="swiftsites">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/png">
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
+    <script src="./assets/js/scripts.js"></script>
+    <!--  Import Animate.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Import FontAwesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous  ">
+    <!-- Import Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav id="navbar" class="navbar navbar-inverse navbar-static-top">
+    	<div class="container">
+    		<div class="navbar-header">
+    			<a class="navbar-brand" href="#">SwiftSites Corporation  </a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    			<ul class="nav navbar-nav navbar-right">
+    				<li id="navbar-item"><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;&nbsp;About</a></li>
+    				<li id="navbar-item"><a href="#"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp;&nbsp;Contact</a></li>
+            <li id="navbar-item"><a href="pricing.html"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>&nbsp;&nbsp;Pricing</a></li>
+            <li id="navbar-item" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a style="color: #191919" href="#inverted">Templates</a></li>
+                <li><a style="color: #191919" href="#">Custom Site&nbsp;&nbsp;<span style="vertical-align:middle;" class="label label-danger">Hot!</span></a></li>
+                <li><a style="color: #191919" href="#">Wordpress Site</a></li>
+                <li><a style="color: #191919" href="#">Company Package&nbsp;&nbsp;<span style="vertical-align:middle;" class="label label-success">New!</span></a></li>
+              </ul>
+            </li>
+    			</ul>
+    		</div>
+    	</div>
+    </nav>
+    <div class="jumbotron" id="jumbotron">
+    	<div class="container header-container">
+    		<h1 id="heading">404 - Page Not Found</h1>
+    		<div id="paragraph-jumbotron">
+          This was not the page you were looking for. Maybe you typed something in wrong? Check again, and if the issue persists, contact us at <a href="mailto:support@swiftsites.today" style="color:white; font-weight: bold">support@swiftsites.today</a>
+        </div>
+    		<br>
+    		<div>
+          <a class="btn button" href="#" role="button" id="button">Learn more »</a>
+        </div>
+    	</div>
+    </div>
+
+    <footer class="footer" style="top: 80%; display:block; position: absolute;">
+			<div class="footer-right">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/swift_sites"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
+				<a href="https://github.com/SwiftSites/"><i class="fa fa-github"></i></a>
+			</div>
+			<div class="footer-left" style="font-family: Roboto">
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="about.html">About</a>
+					·
+					<a href="pricing.html">Pricing</a>
+					·
+					<a href="contact.html">Contact</a>
+					·
+					<a href="#inverted">Templates</a>
+					·
+					<a href="#container">Custom Sites</a>
+				</p>
+
+				<p>SwiftSites &copy; 2015</p>
+			</div>
+
+		</footer>
+  </body>
 </html>
