@@ -14,6 +14,17 @@ body, html, #container1 {
   background-color: rgb(0, 126, 185);
   padding: 50px 0px;
 }
+#image {
+  width: 150px;
+  border-radius: 100px;
+}
+#image:hover {
+  border-radius: 50px;
+  transition: all ease 0.5s;
+}
+#image:not(hover) {
+  transition: all ease 0.5s;
+}
 #h1 {
   font-family: "Montserrat";
   font-weight: 700;
