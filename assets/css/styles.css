@@ -34,6 +34,9 @@ body, html, #container1 {
 #message {
   height: 100px;
 }
+.row-md-6 h1 {
+  font-size: 6em;
+}
 #form {
   width: 80%;
   padding: 3em;
@@ -309,4 +312,24 @@ b {
     #paragraph1 {
       text-align: center;
     }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .row-md-6 h1 {
+    font-size: 5em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .row-md-6 h1 {
+    font-size: 4em;
+  }
+}
+@media screen and (min-width: 992px) {
+
+  .row-md-6 h1 {
+    font-size: 4em;
+  }
 }
