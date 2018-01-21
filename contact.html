@@ -31,14 +31,16 @@
   <!-- Tawk.to -->
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5a63e3a24b401e45400c4172/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function() {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/5a63e3a24b401e45400c4172/default';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
     })();
   </script>
   <!--End of Tawk.to Script-->
@@ -91,6 +93,35 @@
         <div id="paragraph1" style="text-align:center; width: 80%;">
           Use the form below to contact us, or click on the livechat option below!
         </div>
+        <form id="form" class="form-horizontal" action="action_page.php">
+          <div id="form-group" class="form-group">
+            <label class="control-label col-sm-2" for="email">Name:</label>
+            <div class="col-sm-10">
+              <input type="input" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+          </div>
+          <div id="form-group" class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+          </div>
+          <div id="form-group" class="form-group">
+            <label class="control-label col-sm-2" for="email">Subject:</label>
+            <div class="col-sm-10">
+              <input type="input" class="form-control" id="subject" placeholder="Enter subject" name="subject">
+            </div>
+          </div>
+          <div id="form-group" class="form-group">
+            <label class="control-label col-sm-2" for="email">Message:</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="message" placeholder="Enter message" name="message"></textarea>
+            </div>
+          </div>
+          <div id="form-group" class="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
       </center>
       <br />
       <br />

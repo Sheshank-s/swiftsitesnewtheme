@@ -31,6 +31,20 @@ body, html, #container1 {
   color: white;
   text-align: center;
 }
+#message {
+  height: 100px;
+}
+#form {
+  width: 80%;
+  padding: 3em;
+}
+#form-group label{
+  font-family: Montserrat;
+  font-weight: 300;
+}
+#form-group{
+  padding: 0.5em;
+}
 #hr {
   border: none;
   border-bottom: 4px white solid;
