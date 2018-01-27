@@ -34,9 +34,9 @@ body, html, #container1 {
 #message {
   height: 100px;
 }
-.row-md-6 h1 {
+/* .row-md-6 h1 {
   font-size: 6em;
-}
+} */
 #form {
   width: 80%;
   padding: 3em;
